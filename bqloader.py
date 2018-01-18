@@ -4,9 +4,9 @@ from apiclient import discovery
 import logging
 
 class BQLoader():
-    project_id = 'ethereal-honor-132823'
-    dataset_id = 'GA_stream'
-    table_id = 'gadatapy4'
+    project_id = 'bitnewstoday-180513'
+    dataset_id = 'gaStream'
+    table_id = 'bntraw'
 
     table_schema= [
         {
