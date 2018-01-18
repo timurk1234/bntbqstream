@@ -107,7 +107,7 @@ class MainHandler(webapp2.RequestHandler):
 
         tasks = [taskqueue.Task(payload=json.dumps(data), method='PULL')]
         logging.info(data)
-        q.add(tasks)
+        #q.add(tasks)
 
         self.response.headers['Access-Control-Allow-Origin'] = '*'
         self.response.headers['Content-Type'] = 'image/gif'
