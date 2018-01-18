@@ -4,6 +4,7 @@ import webapp2
 import json
 import string
 import base64
+from google.appengine.api import apiproxy_stub_map
 from google.appengine.api import taskqueue
 from urlparse import urlparse
 from urlparse import parse_qs
