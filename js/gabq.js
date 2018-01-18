@@ -6,7 +6,7 @@ function GaBqPlugin(tracker) {
             var payLoad = model.get('hitPayload');
             originalSendHitTask(model);
             var gifRequest = new XMLHttpRequest();
-            var gifPath = "http://ethereal-honor-132823.appspot.com/collect";
+            var gifPath = "http://bitnewstoday-180513.appspot.com/collect";
             gifRequest.open('get', gifPath + '?' + payLoad, true);
             gifRequest.send();
         });
