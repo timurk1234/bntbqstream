@@ -40,7 +40,7 @@ class MainHandler(webapp2.RequestHandler):
 
     def process_ga_params(self, params):
         data = {}
-
+        print(params);
         if 'je' in params and params['je'] == '1':
             params['je'] = True
         else:
