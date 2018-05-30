@@ -2,3 +2,11 @@ cron:
 - description: process queue
   url: /tasks/process_queue
   schedule: every 1 mins
+
+- description: process queue
+  url: /tasks/process_queue
+  schedule: every 1 mins
+  
+ - description: process queue
+  url: /tasks/process_queue
+  schedule: every 1 mins
